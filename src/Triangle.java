@@ -29,7 +29,7 @@ public class Triangle {
         if(a != b && b != c && a != c) {
             return "This is a scalene triangle.";
         }else{
-            return "invalid";
+            return "Invalid";
         }
 
     }
