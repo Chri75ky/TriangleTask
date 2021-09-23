@@ -14,6 +14,9 @@ public class Triangle {
 
     // Methods
     public String whatTypeOfTriangle() {
+        if(a <= 0 || b <= 0 || c <= 0){
+            return "You already know this won't work, don't you?. INVALID.";
+        }
         if(a == b && b == c){
             return "This is an equilateral triangle.";
         }
