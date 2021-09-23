@@ -17,10 +17,10 @@ public class Triangle {
         if(a == b && b == c){
             return "This is an equilateral triangle.";
         }
-        if((a == b) && (b != c) && c - (a + b) < 0){
+        if((a == b) && (b != c) && c - (a + b) > 0){
             return "This is an isosceles triangle.";
         }
-        if(a != b && b != c && a != c && c - (a + b) < 0) {
+        if(a != b && b != c && a != c && c - (a + b) > 0) {
             return "This is a scalene triangle.";
         }if(c - (a + b) >= 0){
             return "Invalid";
